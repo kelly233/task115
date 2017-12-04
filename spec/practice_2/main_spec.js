@@ -19,7 +19,7 @@ describe("Person", () => {
         const introduce = person.introduce();
         expect(introduce).to.equal("My name is Tom. I am 21 years old.");
     });
-
+});
     describe("Student", () => {
         it("should have field name, age and class number", () => {
             const student = new Student("Tom", 21, 2);
@@ -33,5 +33,4 @@ describe("Person", () => {
             const introduce = student.introduce();
             expect(introduce).to.equal("I am a Student. I am at Class 2.");
         });
-    })
-});
+    });
